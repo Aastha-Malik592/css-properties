@@ -1,0 +1,68 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+li{
+    list-style-type: none;
+
+    display: inline;
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color:crimson;
+}
+#box1{
+     height: 100px;
+    width: 100px;
+    background-color: darkgreen;
+    border:2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 1s;
+    transform: rotate(45 deg); 
+    transform: scale(1); */
+    /* transform: translate(20px); */
+    position: absolute;
+    animation-name: colorAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+
+}
+@keyframes colorAnimate {
+    from{
+        background-color: darkgreen;
+    }
+    to{
+        background-color: red;
+    }
+}
+/* div:hover{ */
+    /* background-color: darkred; */
+/* } */
+/* div:active{ */
+    /* background-color: deeppink; */
+/* } */
+@media (width:600px) {
+    div{
+        background-color: cornsilk;
+    }
+
+}

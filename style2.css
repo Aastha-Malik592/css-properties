@@ -1,0 +1,130 @@
+body{
+    background-color: aqua; 
+}
+
+p{
+    color:darkmagenta;
+} 
+ #box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255,0,0,0.45);
+    color:black;
+    padding: 20px;
+    margin-top: 5px;
+    display: inline block;
+    border: 2px solid black;
+} 
+a{
+    text-decoration: none;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255,0,0,0.45);
+    color:black;
+display: none; 
+} 
+ #box3{
+     height: 100px;
+    width: 100px;
+    color:rgb(214, 9, 9);
+    background-color: rgb(175, 94, 175);
+    visibility: hidden;
+}
+button{
+    color:maroon;
+    background-color: coral;
+
+
+}
+#navbar{
+height:60px; 
+ background-color: black;
+color:blue;
+} 
+a{
+    margin-right:200px;
+}
+ #unit{
+    height: 100px;
+    width: 100px;
+    background-color:crimson;
+    font-size: 20px;
+    position:absolute;
+ }
+#car{
+    height: 100px;
+    background-color: coral;
+    width:50em;
+    font-size: 2em;
+    position: sticky;
+} 
+#box4{
+    height: 5vh;
+    background-color:green;
+    width:50vw;
+    font-size: 2em;
+    position: fixed;
+    bottom:0;
+} 
+ #pass{
+    height: 200px;
+    width: 200px;
+    background-color: darkslateblue;
+    background-image: url("winter.jpg");
+    background-size: cover; 
+
+}
+#key{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: yellow;
+    display: inline-block;
+    top:50px;
+    z-index: -8;
+
+}
+container{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: end;
+    flex-wrap: wrap;
+}
+
+con1{
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    border:2px solid black;
+}
+con2{
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    border:2px solid black;
+    align-self:flex-start;
+}
+con3{
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    border:2px solid black;
+}
+con4{
+    height: 100px;
+    width: 100px;
+    background-color:blue;
+    border:2px solid black;
+}
+con5{
+    height: 100px;
+    width: 100px;
+    background-color:brown;
+    border:2px solid black;
+}
